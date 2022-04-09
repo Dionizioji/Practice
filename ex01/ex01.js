@@ -1,6 +1,6 @@
 function clicking(){
-	let bOne = document.getElementById('boxOne')
-	let bTwo = document.getElementById('boxTwo')
+	var bOne = document.getElementById('boxOne')
+	var bTwo = document.getElementById('boxTwo')
 	var res = document.getElementById('res')
 	res.innerText = `A soma foi = ${parseInt(bOne.value) + parseInt(bTwo.value)}\n
 					 A subtração foi = ${parseInt(bOne.value) - parseInt(bTwo.value)}\n
