@@ -1,9 +1,13 @@
-let action = document.getElementById('botão')
-let bOne = parseInt(document.getElementsByClassName('boxOne'))
-let bTwo = parseInt(document.getElementsByClassName('boxTwo'))
-function click(){
-    var resultado = document.getElementsByClassName('result')
-    var soma = bOne + bTwo
-    window.alert(soma)
-    resultado.innerText = soma
+function clicking(){
+	let bOne = document.getElementById('boxOne')
+	let bTwo = document.getElementById('boxTwo')
+	var res = document.getElementById('res')
+	res.innerText = `A soma foi = ${parseInt(bOne.value) + parseInt(bTwo.value)}\n
+					 A subtração foi = ${parseInt(bOne.value) - parseInt(bTwo.value)}\n
+					 A multiplicação foi = ${parseInt(bOne.value) * parseInt(bTwo.value)}\n
+					 A divisão foi =  ${parseInt(bOne.value) / parseInt(bTwo.value)}`
+}
+function resetando(){
+	let restart = document.getElementsByClassName("resetButton")
+	res.innerText = "The result will be displayed here!"
 }

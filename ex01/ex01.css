@@ -1,24 +1,26 @@
-*{ 
-    font-size: 15pt; 
-}
 form{
-    justify-content: center;
-    border-radius: 20px;
-    width: auto;
-    background-color: gray;
-    text-align: center;
-    padding: 2px;
+  border-radius: 20px;
+  width: 500px;
+  background-color: gray;
+  text-align: center;
+  padding: 2px;
 }
 h1{
-    font-size: 20pt;
-    padding: 0px;
-    margin: 5px;
+  font-size: 20pt;
+  padding: 0px;
+  margin: 5px;
 }
-button{
-    border-radius: 12px;
-    margin: 5px;
-    border-color: blue;
+.botão{
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 15px;
+  margin: 5px;
+  border-color: blue; 
 }
 input{
-    margin: 5px;
+  margin: 5px;
+}
+#result{
+  background-color: white;
+  width: 20px;
+  justify-content: center;
 }
