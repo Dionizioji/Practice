@@ -1,27 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Classifica Triângulos!</title>
     <link rel="stylesheet" href="ex02.css"/>
 </head>
 <body>
     <div class="externa">
         <h1>Qual é o tipo do triângulo?</h1>
         <form>
-           <label id="inform">Informe o lado 1 do triângulo:</label>
-           <input class="triangle1" type="text"/><br>
-           <label id="inform">Informe o lado 2 do triângulo:</label>
-           <input class="triangle2" type="text"/><br>
-           <label id="inform">Informe o lado 3 do triângulo:</label>
-           <input class="triangle3" type="text"/><br>
-           <input  class="button" type="button" onclick="clicked()"/><br>
-           <span>Resultado</span>
+           <p id="parag">Type first side of the triangle: <input id="triangleOne" type="number"/></p>
+           <p id="parag">Type second side: <input id="triangleTwo" type="number"/></p>
+           <p id="parag">Type third side: <input id="triangleThree" type="number"/></p>
+           <input value="To classify! " class="button" type="button" onclick="clicking()"/><br>
+           <input value="Reiniciar! " class="restart" type="button" onclick="clique()"/><br>
+           <p id="Resultado">O triângulo é:</p>
         </form>
-        <div class="inerna"></div>
-        </div>
     </div> 
         <script src="ex02.js"></script>
 </body>
